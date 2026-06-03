@@ -176,8 +176,10 @@ h1 {
 
 .section {
   background: #fafafa;
-  padding: 27px 0 28px;
-  border-bottom: 1px solid #e0e0e0
+  padding: 0px 0 0 28px;
+  position: relative;
+  /* border-bottom: 1px solid #e0e0e0; */
+  top: 66px;
 }
 
 .section-title {
@@ -220,7 +222,7 @@ h1 {
 }
 
 .services {
-  padding-top: 28px
+  /* padding-top: 28px; */
 }
 
 .service-card {
@@ -308,7 +310,9 @@ h1 {
 
 .project-card b {
   font-size: 12px;
-  margin-left: 5px
+  margin-left: 5px;
+  position: relative;
+  bottom: 5px;
 }
 
 .news {
@@ -634,4 +638,4 @@ h1 {
   width:100%;
   position:relative;
   margin-bottom:30px;
-}
+} 
