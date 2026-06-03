@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Solution Team - Expert Management Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -12,10 +15,10 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="#" class="logo">
-        <!-- Logo Icon (S shape) -->
         <span class="logo-icon">
-          <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M30 8 H14 a6 6 0 0 0 0 12 h12 a6 6 0 0 1 0 12 H10" stroke="#FFC400" stroke-width="5" fill="none" stroke-linecap="square"/>
+          <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="0" y="0" width="44" height="44" rx="4" fill="#FFC400"/>
+            <path d="M32 11 H16 a5 5 0 0 0 0 10 h12 a5 5 0 0 1 0 10 H12" stroke="#003B7A" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </span>
         <span class="logo-text">
@@ -39,19 +42,12 @@
 
   <!-- ============ HERO SECTION ============ -->
   <!-- IMAGE: images/hero.jpg - Corporate office with professional man and woman discussing on a tablet -->
-  <section class="hero" style="background-image: url('images/hero.jpg');">
+  <section class="hero" style="background-image: url('images/hero-image.webp');">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
       <h1>Guiding Your Projects to Success</h1>
       <p>Expert Management Solutions for Retail &amp; Product</p>
       <a href="#services" class="btn btn-yellow">LEARN MORE</a>
-    </div>
-    <!-- Curved yellow + blue wave shapes at bottom of hero -->
-    <div class="wave-bottom">
-      <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0,80 C400,10 900,140 1440,40 L1440,120 L0,120 Z" fill="#FFC400"/>
-        <path d="M0,100 C400,30 900,160 1440,60 L1440,120 L0,120 Z" fill="#F6F6F6"/>
-      </svg>
     </div>
   </section>
 
@@ -155,7 +151,7 @@
         <!-- IMAGE: images/project-1.jpg - Modern retail store interior -->
         <div class="project-card-wrap">
           <div class="project-card">
-            <img src="images/project-1.jpg" alt="Retail Store Transformation" />
+            <img src="images/project-1.jpg" alt="Retail Store Transformation" onerror="this.onerror=null;this.src='https://picsum.photos/seed/retailstore/800/400'"/>
             <div class="project-yellow-bar"></div>
             <h3>Retail Store Transformation</h3>
           </div>
@@ -166,7 +162,7 @@
         <!-- IMAGE: images/project-2.jpg - Business product planning meeting -->
         <div class="project-card-wrap">
           <div class="project-card">
-            <img src="images/project-2.jpg" alt="Product Development Strategy" />
+            <img src="images/project-2.jpg" alt="Product Development Strategy" onerror="this.onerror=null;this.src='https://picsum.photos/seed/bizmeeting/800/400'"/>
             <div class="project-yellow-bar"></div>
             <h3>Product Development Strategy</h3>
           </div>
@@ -177,7 +173,7 @@
         <!-- IMAGE: images/project-3.jpg - Warehouse/logistics facility -->
         <div class="project-card-wrap">
           <div class="project-card">
-            <img src="images/project-3.jpg" alt="Operational Optimization" />
+            <img src="images/project-3.jpg" alt="Operational Optimization" onerror="this.onerror=null;this.src='https://picsum.photos/seed/warehouse22/800/400'"/>
             <div class="project-yellow-bar"></div>
             <h3>Operational Optimization</h3>
           </div>
@@ -199,7 +195,7 @@
       <div class="cards-grid">
         <!-- News 1 -->
         <!-- IMAGE: images/news-1.jpg - Retail store image with dark overlay -->
-        <article class="news-card" style="background-image: url('images/news-1.jpg');">
+        <article class="news-card" style="background-image: url('images/news-1.jpg'), url('https://picsum.photos/seed/newsretail/800/500');">
           <div class="news-overlay"></div>
           <div class="news-content">
             <h3>New Trends in Retail Industry</h3>
@@ -209,8 +205,7 @@
         </article>
 
         <!-- News 2 -->
-        <!-- IMAGE: images/news-2.jpg - Product launch image -->
-        <article class="news-card" style="background-image: url('images/news-2.jpg');">
+        <article class="news-card" style="background-image: url('images/news-2.jpg'), url('https://picsum.photos/seed/newsproduct/800/500');">
           <div class="news-overlay"></div>
           <div class="news-content">
             <h3>Effective Product Launch Tips</h3>
@@ -220,8 +215,7 @@
         </article>
 
         <!-- News 3 -->
-        <!-- IMAGE: images/news-3.jpg - Warehouse / operational efficiency image -->
-        <article class="news-card" style="background-image: url('images/news-3.jpg');">
+        <article class="news-card" style="background-image: url('images/news-3.jpg'), url('https://picsum.photos/seed/newsops/800/500');">
           <div class="news-overlay"></div>
           <div class="news-content">
             <h3>Optimizing Operational Efficiency</h3>
@@ -234,9 +228,9 @@
 
     <!-- Curved yellow + blue wave shapes above footer -->
     <div class="wave-top">
-      <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0,80 C400,10 900,140 1440,40 L1440,120 L0,120 Z" fill="#FFC400"/>
-        <path d="M0,100 C400,30 900,160 1440,60 L1440,120 L0,120 Z" fill="#004A98"/>
+      <svg viewBox="0 0 1440 130" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,65 C360,135 1080,5 1440,75 L1440,130 L0,130 Z" fill="#FFC400"/>
+        <path d="M0,88 C360,158 1080,28 1440,98 L1440,130 L0,130 Z" fill="#004A98"/>
       </svg>
     </div>
   </section>
