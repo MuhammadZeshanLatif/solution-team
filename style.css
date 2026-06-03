@@ -35,7 +35,7 @@ body {
 .site-header {
   height: 66px;
   background: linear-gradient(#004d9a,#003c84);
-  border-bottom: 7px solid var(--yellow);
+  /* border-bottom: 7px solid var(--yellow); */
   position: relative;
   z-index: 5
 }
@@ -104,14 +104,14 @@ body {
   height: 550px;
   position: relative;
   overflow: hidden;
-  background: #0a4d96
+  background: #0a4d96;
 }
 
 .hero-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  display: block
+  /* object-fit: cover; */
+  display: block;
 }
 
 .hero-content {
@@ -359,21 +359,18 @@ h1 {
 }
 
 .footer {
-  background: linear-gradient(#004e9d,#003576);
+  background-image: url('images/footer-bg.png');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
   color: #fff;
   position: relative;
-  padding: 54px 0 10px;
-  overflow: hidden
+  padding: 170px 0 0 0px;
+  overflow: hidden;
 }
 
 .footer-wave {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 64px;
-  background: linear-gradient(174deg,transparent 0 44%,var(--yellow) 45% 58%,#00458f 59%);
-  transform: translateY(-28px)
+  display: none
 }
 
 .footer-inner {
@@ -493,7 +490,7 @@ h1 {
   text-align: center;
   font-size: 10px;
   color: rgba(255,255,255,.65);
-  margin: 14px 0 0
+  /* margin: 14px 0 0; */
 }
 
 @media(max-width: 850px) {
@@ -560,7 +557,12 @@ h1 {
   .project-card img,.news-card {
       height: 210px
   }
-
+.footer{
+  background-image: url('images/footer-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
   .footer-inner {
       grid-template-columns: 1fr
   }
